@@ -200,5 +200,14 @@ main {
 
   /* Footer */
 
+.footer ul{
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer a{
+  font-size: 1.09em;
+}
+  
   /* /Footer */
 }
