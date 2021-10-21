@@ -162,7 +162,6 @@ main {
   }
 
   /* /Nav */
-
   /* Main */
 
   .aboutme-img {
@@ -204,14 +203,14 @@ main {
 
   /* Footer */
 
-.footer ul{
-  flex-direction: column;
-  align-items: center;
-}
+  .footer ul {
+    flex-direction: column;
+    align-items: center;
+  }
 
-.footer a{
-  font-size: 1.09em;
-}
-  
+  .footer a {
+    font-size: 1.09em;
+  }
+
   /* /Footer */
 }
