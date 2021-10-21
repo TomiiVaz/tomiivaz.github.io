@@ -157,6 +157,10 @@ main {
     padding: 0em 0.8em;
   }
 
+  .navheader li:hover {
+    transform: scale(1);
+  }
+
   /* /Nav */
 
   /* Main */
