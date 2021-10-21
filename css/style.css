@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../img/Paisaje.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main{
+    width: 80%;
+    margin: auto;
+}
+
+ /* Nombre */
+
+.header{
+    background-color: #8b8b8b;
+    text-align: center;
+    margin: 1em;
+    padding: 2em;
+    border-radius: 15px;
+}
+
+/* /Nombre */
+
+/* Nav */
+
+.navheader{
+
+}
+
+.navheader ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.navheader a{
+    text-decoration: none;
+    padding: 1em 3em;
+    color: #fff;
+}
+
+/* /Nav */
+
+/* Main */
+
+.aboutme-img {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    padding: 5em 0em;
+}
+
+.aboutme-img h2 {
+    font-size: 1.5em;
+    background-color: rgba(128, 128, 128, 0.35);
+    width: 50%;
+    margin-left: 5em;
+    padding: 2em;
+    border-radius: 30px;
+}
+
+.aboutme-img img{
+    width: 50%;
+    border-radius: 80px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    border-image: initial;
+}
+
+
+
+/* /Main */
