@@ -98,4 +98,26 @@ main {
 
 /* Footer */
 
+.footer{
+    background-color: #000;
+    padding: 4em;
+    border-radius: 15px;
+}
+
+.footer ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+.footer a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.15em;
+}
+
+.footer i{
+    color: rgba(12, 145, 168, 0.466);
+}
+
 /* /Footer */
