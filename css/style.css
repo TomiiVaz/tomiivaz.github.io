@@ -30,7 +30,7 @@ main {
 /* Nav */
 
 .navheader {
-    margin: 2em;
+  margin: 2em;
 }
 
 .navheader ul {
@@ -77,3 +77,25 @@ main {
 }
 
 /* /Main */
+
+/* Tecnologias */
+
+.tecnologies {
+  display: flex;
+  justify-content: space-around;
+  border-radius: 15px;
+  background-color: rgba(128, 128, 128, 0.35);
+  padding: 2em;
+  margin: 4em 0em;
+}
+
+.tecnologies h3 {
+  display: block;
+  font-size: 1.8em;
+}
+
+/* /Tecnologias */
+
+/* Footer */
+
+/* /Footer */
