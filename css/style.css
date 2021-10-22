@@ -8,6 +8,7 @@ body {
   background-image: url(../img/Paisaje.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 main {
@@ -146,6 +147,11 @@ main {
 /* /Footer */
 
 @media screen and (max-width: 749px) {
+
+  body{
+    background-position: center;
+  }
+
   /* Nav */
 
   .navheader {
