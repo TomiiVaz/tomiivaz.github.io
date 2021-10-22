@@ -171,6 +171,11 @@ main {
     transform: scale(1);
   }
 
+  /* Me da un margen de 130px mas */
+  .a-salta{
+    display: contents;
+  }
+
   /* /Nav */
   /* Main */
 
