@@ -94,6 +94,12 @@ main {
   background-color: rgba(12, 145, 168, 0.466);
   padding: 2em;
   margin: 4em 0em;
+  transition: all .5s;
+}
+
+.tecnologies:hover{
+  background-color: rgba(12, 145, 168, 0.60);
+  transform: scale(1.05);
 }
 
 .tecnologies h3 {
