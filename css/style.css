@@ -91,7 +91,7 @@ main {
   display: flex;
   justify-content: space-around;
   border-radius: 15px;
-  background-color: rgba(12, 145, 168, 0.466);
+  background-color: #0c91a877;
   padding: 2em;
   margin: 4em 0em;
   transition: all .5s;
