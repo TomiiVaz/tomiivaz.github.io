@@ -15,11 +15,14 @@
     <script src="https://kit.fontawesome.com/dc362ca001.js" crossorigin="anonymous"></script>
     <title>Tomas | Web</title>
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 
 <body>
     <header class="header">
-        <h1>Tomás Vázquez</h1>
+        <h1 class="animate__animated animate__zoomIn">Tomás Vázquez</h1>
     </header>
     <nav class="navheader">
         <ul>
@@ -51,14 +54,16 @@
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet at hic cupiditate perspiciatis debitis pariatur totam, dignissimos quas facere illum, quis error quaerat aliquam commodi, id tenetur molestias vero distinctio.</p>
             </article> -->
         </section>
-        <aside class="tecnologies" id="tecnologies">
-            <h3><i class="fab fa-html5" aria-hidden="true"></i> HTML</h3>
-            <h3><i class="fab fa-css3-alt" aria-hidden="true"></i> CSS</h3>
-            <h3><i class="fas fa-coffee"></i></i> JAVA</h3>
-            <h3><i class="fas fa-database" aria-hidden="true"></i> MySQL</h3>
-            <h3 class="tecnologies-ruby"><i class="fas fa-gem"></i>Ruby</h3>
-            <h3><i class="fab fa-js-square" aria-hidden="true"></i> JAVA SCRIPT<h3>
-        </aside>
+        <div data-aos="fade-up" data-aos-duration="1500">
+            <aside class="tecnologies animate__animated animate__zoomInUp" id="tecnologies">
+                <h3><i class="fab fa-html5" aria-hidden="true"></i> HTML</h3>
+                <h3><i class="fab fa-css3-alt" aria-hidden="true"></i> CSS</h3>
+                <h3><i class="fas fa-coffee"></i></i> JAVA</h3>
+                <h3><i class="fas fa-database" aria-hidden="true"></i> MySQL</h3>
+                <h3 class="tecnologies-ruby"><i class="fas fa-gem"></i>Ruby</h3>
+                <h3><i class="fab fa-js-square" aria-hidden="true"></i> JAVA SCRIPT<h3>
+            </aside>
+        </div>
     </main>
     <footer class="footer" id="contact">
         <nav class="navfooter">
@@ -78,6 +83,9 @@
             </ul>
         </nav>
     </footer>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

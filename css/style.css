@@ -69,9 +69,9 @@ main {
 .aboutme-img img {
   width: 45%;
   border-radius: 50px;
-  box-shadow: 0px 0px 22px 6px rgba(0,0,0,0.78);
-  -webkit-box-shadow: 0px 0px 22px 6px rgba(0,0,0,0.78);
-  -moz-box-shadow: 0px 0px 22px 6px rgba(0,0,0,0.78);
+  box-shadow: 0px 0px 22px 6px rgba(0, 0, 0, 0.78);
+  -webkit-box-shadow: 0px 0px 22px 6px rgba(0, 0, 0, 0.78);
+  -moz-box-shadow: 0px 0px 22px 6px rgba(0, 0, 0, 0.78);
 }
 
 .aboutme-img h2 {
@@ -94,13 +94,13 @@ main {
   background-color: #0c91a877;
   padding: 2em;
   margin: 4em 0em;
-  transition: all .5s;
+  transition: all 0.5s;
 }
 
-.tecnologies:hover{
+/* .tecnologies:hover{
   background-color: rgba(12, 145, 168, 0.60);
   transform: scale(1.05);
-}
+} */
 
 .tecnologies h3 {
   display: block;
@@ -151,8 +151,7 @@ main {
 /* /Footer */
 
 @media screen and (max-width: 749px) {
-
-  body{
+  body {
     background-position: center;
   }
 
@@ -172,7 +171,7 @@ main {
   }
 
   /* Me da un margen de 130px mas */
-  .a-salta{
+  .a-salta {
     display: contents;
   }
 
@@ -218,7 +217,7 @@ main {
 
   /* Footer */
 
-  .footer{
+  .footer {
     padding: 1.5em;
   }
 
