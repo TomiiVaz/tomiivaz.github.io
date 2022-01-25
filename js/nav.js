@@ -3,7 +3,7 @@ function abrirMenu() {
     $(".btn_menu").hide();
     $(".navheader").show();
     $(".btn_close").show();
-    $(".navheader").addClass('menuMobileOpen');
+    $(".navheader").addClass("menuMobileOpen");
   });
 }
 
@@ -15,12 +15,10 @@ function cerrarMenu() {
   });
 }
 
-$(document).ready(function () {
-  $(".btn_menu").click(function () {
-    abrirMenu();
-  });
+$(".btn_menu").click(function () {
+  abrirMenu();
+});
 
-  $(".btn_close").click(function () {
-    cerrarMenu();
-  });
+$(".btn_close").click(function () {
+  cerrarMenu();
 });

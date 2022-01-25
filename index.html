@@ -25,15 +25,20 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <!-- /ScrollAnimate -->
-    <script src="js/index.js"></script>
 </head>
 
 <body>
     <header class="header">
         <div class="name-content">
-            <h1 class="typing">Tomás Vázquez</h1>
+            <h1 class="typing" id="name">Tomás Vázquez</h1>
         </div>
     </header>
+    <button class="light light-sun" id="light-sun">
+        <span><i class="fas fa-sun sun" id="sun"></i></span>
+    </button>
+    <button class="light light-moon" id="light-moon">
+        <span><i class="fas fa-moon moon" id="moon"></i></span>
+    </button>
     <nav class="navheader menuMobile">
         <button class="btn_close"><i class="far fa-times-circle"></i></button>
         <ul>
@@ -100,6 +105,8 @@
     <script>
         AOS.init();
     </script>
+    <script src="js/nav.js"></script>
+    <script src="js/light.js"></script>
 </body>
 
 </html>

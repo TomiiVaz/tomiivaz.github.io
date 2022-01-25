@@ -6,11 +6,19 @@
 }
 
 body {
-  background-image: url(../img/Paisaje.jpg);
+  background-image: url(../img/brc2.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.black {
+  background-image: url(../img/Estrellas.jpg);
+  background-repeat: repeat;
+  background-size: initial;
+  background-position: center;
 }
 
 main {
@@ -82,6 +90,9 @@ main {
   color: #fff;
 }
 
+/* /Nav */
+
+/* Boton menu */
 .btn_menu {
   font-size: 2em;
   color: #fff;
@@ -92,8 +103,32 @@ main {
 .btn_close {
   display: none;
 }
+/* /Boton menu */
 
-/* /Nav */
+/* Light */
+.light {
+  position: fixed;
+  right: 1em;
+  bottom: 2em;
+  background-color: transparent;
+  border: 0;
+  font-size: 1.5em;
+  transition: all 0.5s;
+}
+
+.light:hover {
+  transform: scale(1.3);
+}
+
+.light-sun {
+  color: yellow;
+}
+
+.light-moon {
+  display: none;
+  color: yellow;
+}
+/* /Light */
 
 /* Main */
 
@@ -131,16 +166,11 @@ main {
   display: flex;
   justify-content: space-around;
   border-radius: 15px;
-  background-color: #0c91a877;
+  background-color: rgba(128, 128, 128, 0.8);
   padding: 2em;
   margin: 4em 0em;
   transition: all 0.5s;
 }
-
-/* .tecnologies:hover{
-  background-color: rgba(12, 145, 168, 0.60);
-  transform: scale(1.05);
-} */
 
 .tecnologies h3 {
   display: block;
@@ -207,7 +237,7 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    background-color: rgba(12, 145, 168, 0.8);
+    background-color: #aaaaaa46;
     height: 10em;
     padding: 1em;
     border-radius: 1em;
@@ -219,7 +249,7 @@ main {
     color: #000;
     padding: 0;
     margin: 0;
-    background-color: rgba(12, 145, 168, 0.8);
+    background-color: #aaaaaa46;
     border: 0;
     position: relative;
     top: 1.4em;
