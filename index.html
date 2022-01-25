@@ -12,19 +12,28 @@
         content="Tomas, Eliseo, Vazquez, Moreyra, Desarrolador, Developer, Web, Backend, Frontend, Full-stack, Programador">
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="img/escudo-borde.svg">
-    <script src="https://kit.fontawesome.com/dc362ca001.js" crossorigin="anonymous"></script>
     <title>Tomas | Web</title>
     <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Iconos -->
+    <script src="https://kit.fontawesome.com/dc362ca001.js" crossorigin="anonymous"></script>
+    <!-- /Iconos -->
+    <!-- Animate -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- /Animate -->
+    <!-- ScrollAnimate -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- /ScrollAnimate -->
+    <script src="js/index.js"></script>
 </head>
 
 <body>
     <header class="header">
         <h1 class="animate__animated animate__zoomIn">Tomás Vázquez</h1>
     </header>
-    <nav class="navheader">
+    <nav class="navheader menuMobile">
+        <button class="btn_close"><i class="far fa-times-circle"></i></button>
         <ul>
             <li>
                 <a href="#aboutme" class="a-salta">About me</a>
@@ -40,6 +49,9 @@
             </li>
         </ul>
     </nav>
+    <span class="btn_menu">
+        <i class="fa fa-bars"></i>
+    </span>
     <main class="maincontent" id="aboutme">
         <section class="content-me">
             <article class="aboutme-img">
