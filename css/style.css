@@ -26,6 +26,33 @@ main {
   border-radius: 15px;
 }
 
+.name-content {
+  display: flex;
+  justify-content: center;
+}
+
+.typing {
+  display: block;
+  white-space: nowrap;
+  border-right: 4px solid;
+  width: 14ch;
+
+  animation: typing 2s steps(13), blink 0.5s infinite step-end alternate;
+  overflow: hidden;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
 /* /Nombre */
 
 /* Nav */
