@@ -339,6 +339,7 @@ main {
     text-align: center;
     margin: 0em;
     margin-bottom: 3em;
+    margin-top: 1em;
   }
 
   .tecnologies h3 {
@@ -349,7 +350,8 @@ main {
 
   /* Card */
   .card-content {
-    margin: 3em 0em 4em;
+    padding-bottom: 2em;
+    margin-bottom: 2em;
   }
   /* /Card */
 
