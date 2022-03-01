@@ -158,7 +158,7 @@ main {
 
 .aboutme-img h2 {
   font-size: 1.5em;
-  background-color: rgba(128, 128, 128, 0.8);
+  background-color: rgba(114, 114, 114, 0.8);
   width: 50%;
   margin-left: 5em;
   padding: 2em;
@@ -166,6 +166,32 @@ main {
 }
 
 /* /Main */
+
+/* Card */
+.card-content {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: transparent;
+}
+
+.card {
+  background-color: transparent !important;
+}
+
+.card-body {
+  background-color: rgba(0, 0, 0, 0.9);
+  border-radius: 0.3em;
+}
+
+.card-title {
+  color: #0d6efd;
+}
+
+.card-text {
+  color: #fff;
+}
+/* /Card */
 
 /* Tecnologias */
 
@@ -320,6 +346,12 @@ main {
   }
 
   /* /Tecnologies */
+
+  /* Card */
+  .card-content {
+    margin: 3em 0em 4em;
+  }
+  /* /Card */
 
   /* /Main */
 
