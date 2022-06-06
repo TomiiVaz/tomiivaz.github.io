@@ -102,9 +102,12 @@ main {
 /* Boton menu */
 .btn_menu {
   font-size: 2em;
-  color: #fff;
   cursor: pointer;
   display: none;
+}
+
+.btn_menu img{
+  background-color: #aaaaaa46;
 }
 
 .btn_close {
@@ -128,10 +131,12 @@ main {
 }
 
 .light-sun {
+  z-index: 2;
   color: yellow;
 }
 
 .light-moon {
+  z-index: 2;
   display: none;
   color: yellow;
 }
