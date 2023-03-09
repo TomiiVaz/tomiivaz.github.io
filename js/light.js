@@ -6,6 +6,7 @@ function hacerNoche() {
   $("#light-sun").hide();
   $(".light-moon").show();
   $("#name").css("color", "#fff");
+  $(".card-body").css("background-color", "#808080cc");
 }
 
 function hacerDia() {
@@ -16,6 +17,7 @@ function hacerDia() {
   $("#light-sun").show();
   $(".light-moon").hide();
   $("#name").css("color", "#000");
+  $(".card-body").css("background-color", "#000000e6");
 }
 
 $("#light-sun").click(function (e) {
